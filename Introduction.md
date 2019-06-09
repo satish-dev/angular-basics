@@ -1,3 +1,6 @@
+# Angular
+AngularJS is based on the *model view controller*, whereas Angular 4 is based on the components structure. Angular 6 works on the same structure as Angular4 but is faster when compared to Angular4.
+*Angular6 uses TypeScript 2.9* version whereas *Angular 4 uses TypeScript version 2.2.* This brings a lot of difference in the performance.
 # What is new in Angular 6
 Before discussing about the Angular 6 we need to understand about the Angular 5 features and will try see the changes and enhancement that was done in Angular 6.
 # Angular 5 and its Features

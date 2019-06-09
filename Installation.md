@@ -26,6 +26,13 @@ var/www/html/angular-basics$ *npm install -g @angular/cli*
 ```
 ### 4. IDE (Integrated development environment ) for writing your code 
 Once Angular CLI is installed. You can use any IDE of your choice, i.e., WebStorm, Atom, Visual Studio Code(), etc.
-For my point of *Visual Studio Code* could be a better option rest depands on your choice. 
+For my point of *Visual Studio Code* could be a better option rest depands on your choice.
+### Creating Angular project
+We have now installed Angular 6. Let us now create our first project in Angular 6. To create a project in Angular 6, we will use the following command −
+```
+ng new <projectname>
+or 
+var/www/html/angular-basics$ ng new angular6-basics
+```
 ### Windows users can follow the below link to install Angular 6 in your system.
 *Link* => https://peakup.org/blog/how-to-setup-angular-6-environment-on-windows/
