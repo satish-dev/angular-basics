@@ -5,8 +5,8 @@ For *Linux* user I will guide how you can install it on your local machine.
 ### 1. Nodejs
 *Nodejs has to be greater than 8.11*.
 To install Nodejs open this link *https://nodejs.org/en/download/* and install it as per your OS.
-Once you installed you can check it by using the node -v command from your terminal
-\ /var/www/html/angular-basics$ *node -v* 
+Once you installed you can check it by using the node -v command from your terminal.
+/var/www/html/angular-basics$ *node -v* 
 *v8.15.0*
 ### 2. NPM (Node Package Manager)
 *NPM has to be greater than 5.6*.
