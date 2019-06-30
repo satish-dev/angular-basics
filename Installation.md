@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="/css/main.css">
 # Installation of Angular 6
 Now we will see how do we can install *Angular 6* in our machine.
 For *Linux* user I will guide how you can install it on your local machine.
@@ -38,6 +37,6 @@ var/www/html/angular-basics$ ng new angular6-basics
 ### Windows users can follow the below link to install Angular 6 in your system.
 *Link* => https://peakup.org/blog/how-to-setup-angular-6-environment-on-windows/
 <div>
-	<div class="left-side"><a href ="https://github.com/satish-dev/angular-basics/blob/master/Introduction.md" >Next(Installation)</a></div>
-	<div class="right-side"><a href ="https://github.com/satish-dev/angular-basics/blob/master/Installation.md" >Next(Installation)</a> </div>
+	<div style="float:left"><a style="float:left" href ="https://github.com/satish-dev/angular-basics/blob/master/Introduction.md" >Next(Installation)</a></div>
+	<div style ="float:right"><a style="float:right" href ="https://github.com/satish-dev/angular-basics/blob/master/Installation.md" >Next(Installation)</a> </div>
 </div>
