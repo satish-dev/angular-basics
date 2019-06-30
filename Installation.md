@@ -39,5 +39,8 @@ var/www/html/angular-basics$ ng new angular6-basics
 <div>
 	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/Introduction.md" >Next(Installation)</a></span>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/Installation.md" >Next(Installation)</a> </span>
 </div>
