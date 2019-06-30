@@ -37,6 +37,7 @@ var/www/html/angular-basics$ ng new angular6-basics
 ### Windows users can follow the below link to install Angular 6 in your system.
 *Link* => https://peakup.org/blog/how-to-setup-angular-6-environment-on-windows/
 <div>
-	<span style="float:left"><a href ="https://github.com/satish-dev/angular-basics/blob/master/Introduction.md" >Next(Installation)</a></span>
-	<span style ="float:right"><a href ="https://github.com/satish-dev/angular-basics/blob/master/Installation.md" >Next(Installation)</a> </span>
+	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/Introduction.md" >Next(Installation)</a></span>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/Installation.md" >Next(Installation)</a> </span>
 </div>
