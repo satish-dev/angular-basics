@@ -1,6 +1,4 @@
-<style >
-	<link rel="stylesheet" href="/css/main.css">
-</style>
+<link rel="stylesheet" href="/css/main.css">
 # Installation of Angular 6
 Now we will see how do we can install *Angular 6* in our machine.
 For *Linux* user I will guide how you can install it on your local machine.
