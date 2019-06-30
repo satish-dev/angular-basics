@@ -12,6 +12,5 @@ Your most welcome if you want to share something regarding Angular.
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/ documentation/Introduction.md" >Next (Angular structure)</a> </span>
+	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/Introduction.md" >Next (Angular structure)</a> </span>
 </div>
