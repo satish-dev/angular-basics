@@ -170,5 +170,21 @@ platformBrowserDynamic().bootstrapModule(AppModule);
 The **platformBrowserDynamic().bootstrapModule(AppModule)** has the **parent** module reference **AppModule**.Hence, when it executes in the browser, the file that is called is index.html. Index.html internally referes to main.ts which calls the parent module, i.e **AppModule** when the following code executes - 
 ```
 platformBrowserDynamic().bootstrapModule(AppModule);
-
 ```
+When AppModule is called, it calls app.module/.ts which further calls the AppComponent based on the bootstrap as follows-
+```
+bootstrap: [AppComponent]
+```
+In app.component.ts, there is a selector: app-root which is used in the index.html file. This will display the contents present in app.component.html.
+##polyfill.ts
+This is mainly used for backward compatibility.
+##styles.css
+This is the style file required for the project.
+##test.ts
+Here, the unit test cases for testing the project will be handled.
+##tsconfig.app.json
+This is used during compilation, it has the config details that need to be used to run the application.
+##tsconfig.spec.json
+This helps maintain the details for testing.
+##tslint.json
+This is the config file with rules to be considered while compiling ts to js.
