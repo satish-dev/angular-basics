@@ -127,3 +127,64 @@ export class AppComponent {
   title = 'angular6-basics';
 }
 ```
+## Assets
+You can save your images, js files in this folder.
+## Environment
+This folder has the details for the production or the dev environment. The folder contains two files.
+environment.prod.ts
+envirnonment.ts
+Both the files have details of whether the final file should be compiled in the production environment of the dev environment.
+## favicon.ico
+It is the file that define the favourite icon for your site.
+## index.html
+This is the file which is dispalyed in the browser.The file have the following content in it.
+```
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Angular6Basics</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
+```
+The body has **<app-root></app-root>**.This is the selector which is used in app.component.ts file and will display the details from app.component.html file.
+## main.ts
+main.ts is the file from where we start our project development.It starts with importing the basic module which we need.Right now if you see angular/core, angular/platform-browser-dyanamic, app.module and environment is imported by default during angular-cli installation and project setup.
+```
+import { enableProdMode } from '@angular/core';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { AppModule } from './app/app.module';
+import { environment } from './environments/environment';
+if (environment.production) {
+   enableProdMode();
+}
+platformBrowserDynamic().bootstrapModule(AppModule);
+```
+The **platformBrowserDynamic().bootstrapModule(AppModule)** has the **parent** module reference **AppModule**.Hence, when it executes in the browser, the file that is called is index.html. Index.html internally referes to main.ts which calls the parent module, i.e **AppModule** when the following code executes - 
+```
+platformBrowserDynamic().bootstrapModule(AppModule);
+```
+When AppModule is called, it calls app.module/.ts which further calls the AppComponent based on the bootstrap as follows-
+```
+bootstrap: [AppComponent]
+```
+In app.component.ts, there is a selector: app-root which is used in the index.html file. This will display the contents present in app.component.html.
+##polyfill.ts
+This is mainly used for backward compatibility.
+##styles.css
+This is the style file required for the project.
+##test.ts
+Here, the unit test cases for testing the project will be handled.
+##tsconfig.app.json
+This is used during compilation, it has the config details that need to be used to run the application.
+##tsconfig.spec.json
+This helps maintain the details for testing.
+##tslint.json
+This is the config file with rules to be considered while compiling ts to js.
