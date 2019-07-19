@@ -176,15 +176,15 @@ When AppModule is called, it calls app.module/.ts which further calls the AppCom
 bootstrap: [AppComponent]
 ```
 In app.component.ts, there is a selector: app-root which is used in the index.html file. This will display the contents present in app.component.html.
-##polyfill.ts
+## polyfill.ts
 This is mainly used for backward compatibility.
-##styles.css
+## styles.css
 This is the style file required for the project.
-##test.ts
+## test.ts
 Here, the unit test cases for testing the project will be handled.
-##tsconfig.app.json
+## tsconfig.app.json
 This is used during compilation, it has the config details that need to be used to run the application.
-##tsconfig.spec.json
+## tsconfig.spec.json
 This helps maintain the details for testing.
-##tslint.json
+## tslint.json
 This is the config file with rules to be considered while compiling ts to js.
