@@ -30,5 +30,5 @@ fuser -k 4200/tcp
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/Angular%20structure.md" >Next (Angular structure)</a> </span>
+	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/AngularStructure.md" >Next (Angular structure)</a> </span>
 </div>

@@ -189,7 +189,7 @@ This helps maintain the details for testing.
 ## tslint.json
 This is the config file with rules to be considered while compiling ts to js.
 <div>
-	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/Running20%Project.md" >Previous (Installation)</a></span>
+	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/RunningProject.md" >Previous (Running Project)</a></span>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
