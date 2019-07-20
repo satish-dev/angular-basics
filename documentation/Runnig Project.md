@@ -9,7 +9,7 @@ var/www/html/angular-basics$ ng serve
 ```
 The ng serve command builds the application and starts the web server.
 The web server starts on port 4200. Type the url http://localhost:4200/ in the browser and see the output. You will be directed to the following screen −
-<img src="images/ng serve.png" height="80%">
+<img src="../images/ng serve.png" height="80%">
 You have noticed we have used *ng serve* command to build the application, If you have noticed by default it is using the 4200 port, which  is the default port that angular-cli makes use of while compling.You can change the port if you wish using the follwoing command -
 ```
 ng serve --host 0.0.0.0 --port 4205
@@ -21,7 +21,7 @@ If you find the error that 4200 is already in use in that case first of all you 
 fuser -k 4200/tcp 
 ```
 <div>
-	<span><a href ="https://github.com/satish-dev/angular-basics" >Previous (Installation)</a></span>
+	<span><a href ="ttps://github.com/satish-dev/angular-basics/blob/master/documentation/Installation.md" >Previous (Installation)</a></span>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -30,5 +30,5 @@ fuser -k 4200/tcp
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/Installation.md" >Next (Angular structure)</a> </span>
+	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/Angular20%structure.md" >Next (Angular structure)</a> </span>
 </div>

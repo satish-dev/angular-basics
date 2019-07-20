@@ -46,5 +46,5 @@ var/www/html/angular-basics$ ng new angular6-basics
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/Angular%20structure.md" >Next (Angular structure)</a> </span>
+	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/Running%20Project.md" >Next (Running Project)</a> </span>
 </div>
