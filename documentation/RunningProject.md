@@ -21,7 +21,7 @@ If you find the error that 4200 is already in use in that case first of all you 
 fuser -k 4200/tcp 
 ```
 <div>
-	<span><a href ="ttps://github.com/satish-dev/angular-basics/blob/master/documentation/Installation.md" >Previous (Installation)</a></span>
+	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/Installation.md" >Previous (Installation)</a></span>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
