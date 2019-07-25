@@ -6,9 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./first-cmp.component.css']
 })
 export class FirstCmpComponent implements OnInit {
-
+  firstcomponent = "First component content displayed";
   constructor() { }
-
   ngOnInit() {
   }
 
