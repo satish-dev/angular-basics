@@ -235,7 +235,8 @@ In the above class we have added a variable firstcomponent and using that variab
 As we have seen that we have included the *<app-first-cmp></app-first-cmp>* selector in the *app.component.html* which is the .html of the parent component, the content present in the first in first-cmp.component.html file gets displayed on the browser as follows-
 <img src="../images/firstComponent.png" height="80%">
 **Just like the above process we can create components and link the same using the selector in the app-component.html file as per our requirements.**
-	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/AngularStructure.md" >Previous (Angular Structure)</a></span>
+<div>	
+  <span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/AngularStructure.md" >Previous (Angular Structure)</a></span>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
