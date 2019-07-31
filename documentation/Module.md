@@ -45,4 +45,25 @@ The structure for the above **ngModule** is given below-
 ```
 Above structure starts with **@NgModule** and contains an object which has *declarations, imports, providers and bootstrap*.
 * **Declarations**
+It is an array of components of our application. If we creates a new components it will automatically gets included in this list.Below is the example 
+```
+declarations: [
+AppComponent,
+FirstCmpComponent
+]
+```
+* **Import**
+This will have the array of modules that to be used in the application. This can also be used by the components in the Declaration array. If we look the *import* section of *ng.module.ts* , we can see the Browser Module is imported. Now the case your application needs forms, you can include the module as follows
+```
+import { FormsModule } from '@angular/forms';
+imports: [
+   BrowserModule,
+   FormsModule // We have inculded the module here
+]
+```
+* **Providers**
+It will include the services that were created.
+* **Bootstrap**
+It will includes the main app component for starting the execution of our application.
+
 
