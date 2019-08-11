@@ -34,8 +34,8 @@ In the above example we have iterate the for loop over the week days array, whic
 For loop syntax in Angular is *ngFor = "let I of months" and to get the value of weeks days we are displaying it in {{i}}.
 Here we can see the two curly brackets help with data binding. We can declare the variable in our *app.component.ts* file and the same will be replaced using the curly brackets.
 Below will be the output of above example
-<img src="../images/dataBinding.png" height="80%" ```style="border: 1px solid black;
-    box-shadow: 10px 10px grey;"```>
+<img src="../images/dataBinding.png" height="80%" style="border: 1px solid black;
+    box-shadow: 10px 10px grey;">
 Now let see display data in the browser on the based of condition.In the below example in **app.component.ts** we will add a variable and with the value of *true*. By the help of if statement, we will hide/show the content on the browser.
 ```
 import { Component } from '@angular/core';
