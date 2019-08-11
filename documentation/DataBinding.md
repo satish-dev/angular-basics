@@ -100,5 +100,5 @@ Below will be the output of above example
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;
-	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/DataBinding.md" >Next (Event Binding)</a> </span>
+	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/EventBinding.md" >Next (Event Binding)</a> </span>
 </div>
