@@ -15,7 +15,8 @@ Run the below command to create a component
 ng generate component first-cmp
 ```
 After executing the above command you will see the following output.
-<img src="../images/createComponent.png" height="80%">
+<img src="../images/createComponent.png" height="80%" style="border: 1px solid black;
+    box-shadow: 10px 10px grey;">
 Now if you will go and check the file structure, you will see the first-cmp new folder created the *src/app* folder
 Following files are created under the first-cmp folder-
 * first-cmp.component.css - css file for the new component is created.
@@ -233,7 +234,8 @@ In the above class we have added a variable firstcomponent and using that variab
 </p>
 ```
 As we have seen that we have included the *<app-first-cmp></app-first-cmp>* selector in the *app.component.html* which is the .html of the parent component, the content present in the first in first-cmp.component.html file gets displayed on the browser as follows-
-<img src="../images/firstComponent.png" height="80%">
+<img src="../images/firstComponent.png" height="80%" style="border: 1px solid black;
+    box-shadow: 10px 10px grey;">
 **Just like the above process we can create components and link the same using the selector in the app-component.html file as per our requirements.**
 <div>	
   <span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/AngularStructure.md" >Previous (Angular Structure)</a></span>
