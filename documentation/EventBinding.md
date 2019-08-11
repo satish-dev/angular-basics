@@ -16,8 +16,7 @@ In the above example we are calling a function *buttonClickFunction*, Now the ti
     }
 ```
 Whenever you click to the button, The control will come to the function *buttonClickFunction* that was defined in *app.component.ts* file . In function we have a statement that will display that button was clicked just like the below image.
-<img src="../images/eventBinding.png" height="80%" style="border: 1px solid black;
-    box-shadow: 10px 10px grey;">
+<img src="../images/eventBinding.png" height="80%">
 Let's now add the change event on the *weekDays* dropdown that we have created in *app.component.html*.
 ```
 <select (change) = "changeWeekDays($event)"> // Here we have added the change event to call the changeWeekDays function
@@ -32,8 +31,7 @@ Now add the *changeWeekDays* method in *app.component.ts* file just like the bel
   }
 ```
 You will see if you are changing the dropdown value the console will have **Changed day from the Dropdown** just like the below image.
-<img src="../images/eventBindingDropdown.png" height="80%" style="border: 1px solid black;
-    box-shadow: 10px 10px grey;">
+<img src="../images/eventBindingDropdown.png" height="80%">
 <div>	
   <span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/DataBinding.md" >Previous (Data Binding)</a></span>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

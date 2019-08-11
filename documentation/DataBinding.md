@@ -34,8 +34,7 @@ In the above example we have iterate the for loop over the week days array, whic
 For loop syntax in Angular is *ngFor = "let I of months" and to get the value of weeks days we are displaying it in {{i}}.
 Here we can see the two curly brackets help with data binding. We can declare the variable in our *app.component.ts* file and the same will be replaced using the curly brackets.
 Below will be the output of above example
-<img src="../images/dataBinding.png" height="80%" ```style="border: 1px solid black;
-    box-shadow: 10px 10px grey;"```>
+<img src="../images/dataBinding.png" height="80%">
 Now let see display data in the browser on the based of condition.In the below example in **app.component.ts** we will add a variable and with the value of *true*. By the help of if statement, we will hide/show the content on the browser.
 ```
 import { Component } from '@angular/core';
@@ -73,8 +72,7 @@ Now lets change the content of **app.component.html** to dispaly the content on 
 <router-outlet></router-outlet>
 ```
 Below will be the output of above example
-<img src="../images/angularCondition.png" height="80%" style="border: 1px solid black;
-    box-shadow: 10px 10px grey;">
+<img src="../images/angularCondition.png" height="80%">
 Now let's try the this example using the IF THEN ELSE condition.
 Now we will have to set the variable as follow in *app.component.ts* file :- 
 ```
@@ -91,7 +89,7 @@ The whole changed code will we look like this:-
 ```
 Let's understand the above, If you used the else condition and the variable used is condition1. The same is assigned as an id to the ng-template, and when the available variable is set to the false the text *Condition is invalid* will display.
 Below will be the output of above example
-<img src="../images/angularIfElseCondition.png" height="80%" style="border: 1px solid black;box-shadow: 10px 10px grey;">
+<img src="../images/angularIfElseCondition.png" height="80%">
 <div>	
   <span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/Module.md" >Previous (Angular Module)</a></span>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

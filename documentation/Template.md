@@ -16,12 +16,10 @@ Now let's modify the changes in *app.component.ts* file, just add a variable *va
   validationStatus = false;
 ```
 The output in your browser will be something similar to the below image:-
-<img src="../images/eventBinding.png" height="80%" style="border: 1px solid black;
-    box-shadow: 10px 10px grey;">
+<img src="../images/eventBinding.png" height="80%">
 The variable *validationStatus* is set to false that is why the condition2 template is printed.
 **Note**: If you inspect the browser you will see that you never get the span tag in the dom. The following image will help you understand this.
-<img src="../images/inspectTemplate.png" height="80%" style="border: 1px solid black;
-    box-shadow: 10px 10px grey;">
+<img src="../images/inspectTemplate.png" height="80%">
 If you wanna have the span tag on your browser , you just have to do the following changes in your *app.component.html* 
 ```
 <div>
@@ -31,7 +29,7 @@ If you wanna have the span tag on your browser , you just have to do the followi
 </div>
 ```
 And also change the value of *validationStatus* from *false* to *true*. Now if you will the content of browser you will see the text *condition is valid* and while inspecting you will find that you have the span tag on your browser just like the below example.
-<img src="../images/inspectTemplateWithSpan.png" height="80%" style="border: 1px solid black;box-shadow: 10px 10px grey;">
+<img src="../images/inspectTemplateWithSpan.png" height="80%">
 <div>	
   <span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/EventBinding.md" >Previous (Event Binding)</a></span>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
