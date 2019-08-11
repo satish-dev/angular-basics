@@ -1,15 +1,3 @@
-<div>	
-  <span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/EventBinding.md" >Previous (Event Binding)</a></span>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	&nbsp;&nbsp;
-	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/Directives.md" >Next (Angular Directives</a> </span>
-</div>
 # Angular 6 Templates
 It uses the **<ng-template>** , which is similar to the Angular pervious verisons 2 and 4. The reasong of changing from *<template>* to *<ng-template>* is, because there is a name conflict between the <template> tag and the *html <template>* standard tag.
 We will see the example of template along with the *if else condition* and see the output.
