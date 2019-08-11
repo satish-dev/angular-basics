@@ -15,5 +15,9 @@ export class AppComponent {
     //just added console.log which will display the event details in browser on click of the button.
     alert("Button is clicked");
     console.log(event);
-}
+  }
+  changeWeekDays(event) {
+    console.log("Changed day from the Dropdown");
+    console.log(event);
+  }
 }

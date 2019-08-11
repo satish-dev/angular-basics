@@ -7,12 +7,15 @@
     </h1>
   </div>
   <div> Week Days :
-    <select>
+    <select (change) = "changeWeekDays($event)">
       <option *ngFor="let i of weekDays">{{i}}</option>
     </select>
   </div>
-  <span *ngIf = "validationStatus; else condition1">Condition is valid.</span>
-  <ng-template #condition1>Condition is invalid</ng-template>
+  <div>
+    <span *ngIf = "validationStatus; else condition2">Condition is valid.</span>
+    <ng-template #condition1>Condition is valid from template</ng-template>
+    <ng-template #condition2>Condition is invalid from template</ng-template>
+  </div>
   <br/>
   <button (click)="buttonClickFunction($event)">
     Click Me
