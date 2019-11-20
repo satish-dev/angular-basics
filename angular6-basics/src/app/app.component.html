@@ -1,8 +1,41 @@
+<!-- Angular Pipes example -->
+<div style="width:100%">
+  <div style="width:40%;float:left;border:solid 1px blue;">
+    <h1>Uppercase Pipe</h1>
+    <b> {{title | uppercase}}</b>
+    <hr/>
+    <h1>Lowercase Pipe</h1>
+    <b> {{title | lowercase}}</b>
+    <hr/>
+    <h1>Currency Pipe</h1>
+    <b>{{6589.23 | currency:"USD"}}</b><br/>
+    <b>{{6589.23 | currency:"USD":true}}</b> //Boolean true is used to get the sign of the currency.
+    <hr/>
+    <h1>Date pipe</h1>
+    <b>{{todaydate | date:'d/M/y'}}</b><br/>
+    <b>{{todaydate | date:'shortTime'}}</b>
+    <hr/>
+    <h1>Decimal Pipe</h1>
+    <b>{{ 454.78787814 | number: '3.4-4' }}</b> // 3 is for main integer, 4 -4 are for integers to be displayed.
+  </div>
+  <div style = "width:40%;float:left;border:solid 1px black;">
+    <h1>Json Pipe</h1>
+    <b>{{ jsonval | json }}</b>
+    <hr/>
+    <h1>Percent Pipe</h1>
+    <b>{{00.54565 | percent}}</b>
+    <hr/>
+    <h1>Slice Pipe</h1>
+    <b>{{weekDays | slice:2:6}}</b> 
+    // here 2 and 6 refers to the start and the end index
+ </div>
+</div>
+
 <!--The content below is only a placeholder and can be replaced.-->
 <!-- Removed class divcolor-->
-<div>
+<!-- <div>
   <div style="text-align:center">
-    <h1>
+    <h1 appNewTest>
       Welcome to {{ title }}!
     </h1>
   </div>
@@ -20,7 +53,7 @@
   <button (click)="buttonClickFunction($event)">
     Click Me
   </button>
-  <!-- Right now making it commented
-    <app-first-cmp></app-first-cmp> -->
-</div>
+  Right now making it commented
+  <app-first-cmp></app-first-cmp>
+</div> -->
 <router-outlet></router-outlet>
