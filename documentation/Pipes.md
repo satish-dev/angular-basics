@@ -37,7 +37,7 @@ There are many built-in pipes in Angular-6. The pipes are listed below -
 * Slicepipe
 As we already have an example of lowercase and uppercase pipe, Now let's discuss some other pipes.
 We just have to add the following required variables in app.component.ts file.
-``
+```
 import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
@@ -51,10 +51,9 @@ export class AppComponent {
   jsonval = {name: 'Ram', age: '50', address : {permenant:'Uttrakhand', temporary: 'Delhi' }};
   weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thrusday", "Friday", "Saturday"];
 }
-
-``
+```
 To use the *pipes* we have to do the following line of changes in app.component.html file
-``
+```
 <div style="width:100%">
   <div style="width:40%;float:left;border:solid 1px blue;">
     <h1>Uppercase Pipe</h1>
@@ -86,6 +85,9 @@ To use the *pipes* we have to do the following line of changes in app.component.
     // here 2 and 6 refers to the start and the end index
  </div>
 </div>
-``
+```
 After doing the above changes we will have the following output on our screen
 <img src="../images/angularAllPipes.png" height="80%">
+We have seen many example for *built-in* pipes, Now it's time create custom pipe.
+### Custom pipes
+
