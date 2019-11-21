@@ -90,4 +90,65 @@ After doing the above changes we will have the following output on our screen
 <img src="../images/angularAllPipes.png" height="80%">
 We have seen many example for *built-in* pipes, Now it's time create custom pipe.
 ### Custom pipes
+In order to create a custom pipe we need to create a new ts file, let's just create a pipe to sqrt of the number with the following content(app.sqrt.ts).
+```
+import {Pipe, PipeTransform} from '@angular/core';
+@Pipe ({
+   name : 'sqrt'
+})
+export class SqrtPipe implements PipeTransform {
+   transform(val : number) : number {
+      return Math.sqrt(val);
+   }
+}
+```
+In the above code you will see, to create custom pipe you have to import *Pipe* and *PipeTransform* from *Angualr/core*.
+In @Pipe directive we have to give the name to our pipe, which will be used in our .html file.
+Now we have to create the class *SqrtPipe* and this class will implements the *PipeTransform*. The transform method defined in the class will take argument as the number and will return the number after taking the square root.
+Now we have to add this *app.sqrt.ts* file in *app.module.ts* just like the below example -
+```
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { FirstCmpComponent } from './first-cmp/first-cmp.component';
+import { NewTestDirective } from './new-test.directive';
+import { SqrtPipe } from './app.sqrt'; // Imported that pipe here
+@NgModule({
+  declarations: [
+    SqrtPipe, // Used that pipe
+    AppComponent,
+    FirstCmpComponent,
+    NewTestDirective
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
+To make the above working we have to some changes in app.component.html file
+```
+<h1>Custom Pipe</h1>
+<b>Square root of 25 is: {{25 | sqrt}}</b>
+<br/>
+<b>Square root of 729 is: {{729 | sqrt}}</b>
+```
+The output looks as follows −
+<img src="../images/customPipes.png" height="80%">
+<div>	
+  <span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/Directives.md" >Previous (Directives)</a></span>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;
+	<span><a href ="https://github.com/satish-dev/angular-basics/blob/master/documentation/Routing.md" >Next (Data Routing)</a> </span>
+</div>
