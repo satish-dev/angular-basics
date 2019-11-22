@@ -67,6 +67,7 @@ Above tag will ensures that the content in the first-cmp.component.html will be 
 Before clicking on link the content of the page will be look like the following
 <img src="../images/beforeRouting.png" height="80%">
 After clicking on link the content of the page will be look like the following
+<br/>
 <img src="../images/afterRouting.png" height="80%">
 We noticied now the URL contains http://localhost:4205/first-cmp, in this first-cmp gets appended to the original url, which is the path given in *app.module.ts* and the router link in the *app.component.html*
 
