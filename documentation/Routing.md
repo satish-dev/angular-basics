@@ -66,9 +66,11 @@ Whenever a user clicks first component, the page should display the content. For
 Above tag will ensures that the content in the first-cmp.component.html will be displayed on the page when a user clicks new component.
 Before clicking on link the content of the page will be look like the following
 <img src="../images/beforeRouting.png" height="80%">
+<br/>
 After clicking on link the content of the page will be look like the following
 <br/>
 <img src="../images/afterRouting.png" height="80%">
+<br/>
 We noticied now the URL contains http://localhost:4205/first-cmp, in this first-cmp gets appended to the original url, which is the path given in *app.module.ts* and the router link in the *app.component.html*
 
 Whenever a user clicks on *Fist component*, the page is not refreshed and the contnents are shown to the user without any reloading. Only the specified piece of the site code will be reloaded when clicked.

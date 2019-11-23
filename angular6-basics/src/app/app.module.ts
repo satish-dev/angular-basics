@@ -1,9 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule} from '@angular/router';
 import { AppComponent } from './app.component';
+import { TestserviceService } from './testservice.service';
 import { FirstCmpComponent } from './first-cmp/first-cmp.component';
 import { NewTestDirective } from './new-test.directive';
 import { SqrtPipe } from './app.sqrt';
@@ -24,7 +24,7 @@ import { SqrtPipe } from './app.sqrt';
       }
    ])
   ],
-  providers: [],
+  providers: [TestserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
