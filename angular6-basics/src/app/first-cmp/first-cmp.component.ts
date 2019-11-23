@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {TestserviceService} from '../testservice.service';
 @Component({
   selector: 'app-first-cmp',
   templateUrl: './first-cmp.component.html',
@@ -7,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FirstCmpComponent implements OnInit {
   firstcomponent = "First component content displayed";
-  constructor() { }
+  todaydate: Date;
+  constructor(private testservice: TestserviceService) { }
   ngOnInit() {
+    this.todaydate = this.testservice.displayTodayDate();
   }
 
 }
