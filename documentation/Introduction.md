@@ -14,7 +14,7 @@ A component can be exported using multiple aliases to ease the migartion process
 Angular 5 was introduced with the internationalized Pipes for Number, Date, and Currency- New pipes was introduced for better standardization.
 ### 4. Lamda Support
 Lammbda experssions with proper names can be used instead of functions.
-### 5. Buid optimizer
+### 5. Build optimizer
 Build optimizer introduced. It *optimizes the build size and improves the application speed*. Angular CLI uses Build Optimzer automatically.
 ### 6. Improved Complier
 Compiler from Angular 5 onwards supports incremental compilation leading for faster compilation.Complier uses TypeScript transforms, a new feature of TypeScript 2.3 available onwards.
