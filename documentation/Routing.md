@@ -39,8 +39,8 @@ In above statement the *RouterModule* is imported from the *angular/router*. The
 ```
 RouterModule.forRoot([
    {
-      path: 'new-cmp',
-      component: NewCmpComponent
+      path: 'first-cmp',
+      component: FirstCmpComponent
    }
 ])
 ```
